@@ -8,7 +8,7 @@
 
 header {
   text-align: right;
-  background-image: url('../media/image/banner/banner3.png');
+  background-image: url("../media/image/banner/banner3.png");
   background-repeat: no-repeat;
   height: 809px;
   width: 1600px;
@@ -110,12 +110,17 @@ span {
 /* watch section Style */
 
 .watch-style {
-  background-image: url('../media/image/body-image/watch.png');
+  /* background-image: url('../media/image/body-image/watch.png');
   background-repeat: no-repeat;
+  background:linear-gradient(left, #005EAA); */
+
+  background: linear-gradient(to right, #015eaa, #123d6180, #1e232800),
+    url("../media/image/body-image/watch.png");
   height: 300px;
   width: 1140px;
-  margin-top: 140px;
-  margin-left: 250px;
+  border-radius: 10px;
+  margin-top: 200px;
+  margin: auto;
 }
 
 .watch-style-title {
@@ -124,7 +129,7 @@ span {
   text-align: right;
   text-transform: capitalize;
   margin-right: 50px;
-  margin-top: 75px;
+  margin-top: 100px;
 }
 
 .btn-primary-02 {
@@ -133,8 +138,8 @@ span {
   border-radius: 7px;
   height: 70px;
   width: 200px;
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   margin-top: 10px;
   margin-left: 890px;
 }
@@ -191,14 +196,14 @@ input[type="button"] {
 }
 
 .footer-icon {
-    margin-top: 50px;
-    margin-left: 50px;
-    display: flex;
-    gap: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  gap: 20px;
 }
 
 .contact-title {
-    font-size: 45px;
+  font-size: 45px;
 }
 
 ul li {
@@ -219,5 +224,5 @@ footer > a:active {
 }
 
 .footer-section-02 {
-    margin-left: 400px;
+  margin-left: 400px;
 }
