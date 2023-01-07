@@ -1,0 +1,223 @@
+* {
+  border: 0;
+  padding: 0;
+  font-family: "Fjalla One", sans-serif;
+}
+
+/* Header and Banner Design Section */
+
+header {
+  text-align: right;
+  background-image: url('../media/image/banner/banner3.png');
+  background-repeat: no-repeat;
+  height: 809px;
+  width: 1600px;
+  color: #ffffff;
+}
+
+.header-title {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.sub-header {
+  padding-top: 250px;
+  padding-right: 100px;
+  margin-bottom: 100px;
+}
+
+/* .image-body {
+    background-color: #FCDED3;
+} */
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #005fac;
+  border-radius: 5px;
+  height: 64px;
+  width: 160px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Main Body Style */
+
+span {
+  color: #16d887;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.main-body {
+  display: flex;
+  justify-content: center;
+  gap: 87px;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.sub-image-body {
+  margin-top: 300px;
+  text-align: right;
+  text-align-last: left;
+  padding-right: 100px;
+}
+
+.body-title {
+  font-size: 40px;
+}
+
+.body-description {
+  color: #676666;
+}
+
+/* Skill Style Section */
+
+.plan-skill {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: #151414;
+  margin-top: 100px;
+}
+
+.all-skill-info {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  font-size: 25px;
+  margin-top: 100px;
+}
+
+.all-skill-icon {
+  text-align: center;
+}
+
+.skill-title-description {
+  color: #676666;
+  text-align: center;
+}
+
+.habbit-skill-title {
+  text-align: center;
+}
+
+.all-info-main {
+  text-align: center;
+}
+
+/* watch section Style */
+
+.watch-style {
+  background-image: url('../media/image/body-image/watch.png');
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 1140px;
+  margin-top: 140px;
+  margin-left: 250px;
+}
+
+.watch-style-title {
+  color: #ffffff;
+  font-size: 40px;
+  text-align: right;
+  text-transform: capitalize;
+  margin-right: 50px;
+  margin-top: 75px;
+}
+
+.btn-primary-02 {
+  background-color: #ffffff;
+  color: #005fac;
+  border-radius: 7px;
+  height: 70px;
+  width: 200px;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 890px;
+}
+
+/* Footer Style Section */
+
+footer {
+  background-color: #151414;
+  height: 577px;
+  width: 1600px;
+  margin-top: 150px;
+  margin-left: 0;
+  color: #ffffff;
+  list-style: none;
+}
+
+footer > ul a:active {
+  color: #ffffff;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.group-footer {
+  display: flex;
+  gap: 25px;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+input[type="text"] {
+  padding: 0 15px;
+  border-radius: 10px;
+  height: 64px;
+  width: 325px;
+  background-color: yellow;
+}
+
+input[type="email"] {
+  padding: 0 15px;
+  border-radius: 10px;
+  height: 64px;
+  width: 325px;
+  background-color: yellow;
+}
+
+input[type="button"] {
+  padding: 0 15px;
+  border-radius: 5px;
+  height: 64px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.footer-icon {
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.contact-title {
+    font-size: 45px;
+}
+
+ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+footer > a:active {
+  color: #ffffff;
+}
+
+.email-address {
+  margin-top: 35px;
+}
+
+.telephone-number {
+  margin-top: 25px;
+}
+
+.footer-section-02 {
+    margin-left: 400px;
+}
