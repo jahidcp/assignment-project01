@@ -72,6 +72,38 @@ span {
   color: #676666;
 }
 
+
+/* blockchain Technology article Style */
+
+.blockchain {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.blockchain img {
+  border-radius: 50%;
+}
+
+.blockchain figcaption {
+  text-align: center;
+}
+
+.blockchain-title {
+  font-size: 40px
+}
+
+.blockchain-title-description {
+  color: #676666;
+}
+
+mark {
+  color: red;
+  background-color: white;
+}
+
 /* Skill Style Section */
 
 .plan-skill {
@@ -107,13 +139,10 @@ span {
   text-align: center;
 }
 
+
 /* watch section Style */
 
 .watch-style {
-  /* background-image: url('../media/image/body-image/watch.png');
-  background-repeat: no-repeat;
-  background:linear-gradient(left, #005EAA); */
-
   background: linear-gradient(to right, #015eaa, #123d6180, #1e232800),
     url("../media/image/body-image/watch.png");
   height: 300px;
